@@ -1,0 +1,30 @@
+{
+    "name": "soyyo_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec",
+        "dev": "nodemon src/js/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fapereira7/soyyo_project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fapereira7/soyyo_project/issues"
+    },
+    "homepage": "https://github.com/fapereira7/soyyo_project#readme",
+    "dependencies": {
+        "axios": "^1.3.4",
+        "chai": "^4.3.7",
+        "express": "^4.18.2",
+        "mocha": "^10.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    }
+}
