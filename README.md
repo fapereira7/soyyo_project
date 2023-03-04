@@ -7,6 +7,7 @@ Soyyo project
 - [Getting Started](#getting_started)
 - [Installing](#installing)
 - [Usar](#usar)
+- [Test](#test)
 
 ## About
 Prueba para desarrollador backend empresa soyyo
@@ -32,3 +33,6 @@ npm run dev
   "startId": 1,
   "endId": 5
 }
+## Test
+1. ejecutar test
+npm test
