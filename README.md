@@ -6,6 +6,7 @@ Soyyo project
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Installing](#installing)
+- [Usar](#usar)
 
 ## About
 Prueba para desarrollador backend empresa soyyo
@@ -23,3 +24,11 @@ npm update -g npm
 ## Installing
 1. Instalo las librerias y dependencias necesaras del package.json
 npm i
+## Usar
+1. Usar postman o similares, correr el servidor
+npm run dev
+2. metodo post y agregar un body 
+{
+  "startId": 1,
+  "endId": 5
+}
