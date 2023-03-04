@@ -8,7 +8,7 @@ const url = 'http://localhost:3000';
 describe('Test api post clients: ', () => {
     it('should get list clients', (done) => {
         chai.request(url)
-            .post('/entities/filter/test')
+            .post('/entities/filter')
             .send({ startId: 1, endId: 5 })
             .end(function(err, res) {
                 console.log(res.body)
